@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trade has been Offered</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="NFL.css"> 
+</head>
+<body>
+    <h1>Trade Offered</h1>
+    <p><span id="Team"></span> is offering <span id="randomNumber1"></span> Player(s) for Player <span id="randomNumber2"></span></p>
+
+    <script>
+        // Generate random number between 1 and 99
+        var randomNumber1 = Math.floor(Math.random() * 5) + 1;
+        var randomNumber2 = Math.floor(Math.random() * 99) + 1;
+
+        // Display the random number on the webpage
+        document.getElementById("randomNumber1").innerText = randomNumber1;
+        document.getElementById("randomNumber2").innerText = randomNumber2;
+        const names = ["Arizona Cardinals", "Atlanta Falcons", "Baltimore Ravens", "Buffalo Bills", "Carolina Panthers", "Chicago Bears", "Cincinnati Bengals", "Cleveland Browns", "Dallas Cowboys", "Denver Broncos", "Detroit Lions", "Green Bay Packers", "Houston Texans", "Indianapolis Colts", "Jacksonville Jaguars", "Kansas City Chiefs", "Las Vegas Raiders", "Los Angeles Chargers", "Los Angeles Rams", "Miami Dolphins", "Minnesota Vikings", "New England Patriots", "New Orleans Saints", "New York Giants", "New York Jets", "Philadelphia Eagles", "Pittsburgh Steelers", "San Francisco 49ers", "Seattle Seahawks", "Tampa Bay Buccaneers", "Tennessee Titans", "Washington"]
+        const randomIndex = Math.floor(Math.random() * names.length);
+        const randomName = names[randomIndex];
+
+        document.getElementById('Team').innerText = randomName;
+    </script>
+</body>
+<form method="post" action="Draft.html" >
+<input type="submit" value="Accept"> 
+<input type="submit" value="Reject"> 
+</form>
+</html>

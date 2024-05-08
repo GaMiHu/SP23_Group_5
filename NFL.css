@@ -1,0 +1,6 @@
+body {background-color: blue; font-size: .8em; color: orange; font-family: Verdana, Arial, sans-serif; }   
+header {background-color: #FFFFFF; height: 100px;}	
+h1 {font-size: 4em; line-height: 100%; color: red; text-align: center; background-color: navy;}
+label{color: red; font-weight: bold; font-size: .78em}
+@media only screen and ()
+h2{color: white; font-weight: bold}

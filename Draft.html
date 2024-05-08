@@ -1,0 +1,341 @@
+<html lang="en">
+    	<title>Draft</title>
+	<meta charset="utf-8">
+    <meta http-equiv = "refresh" content = "60; url=Grade.html" />
+    <link rel="stylesheet" href="NFL.css">
+<h2>Pick Your Team(s)</h2>
+<div>
+<input type="checkbox" id="AC" value="Arizona Cardinals"/>
+<img src="AC.jpg" alt="AC" height="25" width="25">
+<label>Arizona Cardinals</label>
+<input type="checkbox" id="AF" value="Atlanta Falcons"/>
+<img src="AF.jpg" alt="AC" height="25" width="25">
+<label>Atlanta Falcons</label>
+<input type="checkbox" id="BR" value="Baltimore Ravens"/>
+<img src="BR.jpg" alt="AC" height="25" width="25">
+<label>Baltimore Ravens</label>
+<input type="checkbox" id="BB" value="Buffalo Bills"/>
+<img src="BB.jpg" alt="AC" height="25" width="25">
+<label>Buffalo Bills</label>
+<input type="checkbox" id="CP" value="Carolina Panthers"/>
+<img src="CP.jpg" alt="AC" height="25" width="25">
+<label>Carolina Panthers</label>
+<input type="checkbox" id="ChB" value=""/>
+<img src="ChB.jpg" alt="AC" height="25" width="25">
+<label>Chicago Bears</label>
+<input type="checkbox" id="CiB"value=""/>
+<img src="CiB.jpg" alt="AC" height="25" width="25">
+<label>Cincinnati Bengals</label>
+<input type="checkbox" id="ClB"value=""/>
+<img src="ClB.jpg" alt="AC" height="25" width="25">
+<label>Cleveland Browns</label>
+</div>
+<div>
+<input type="checkbox" id="DC"/>
+<img src="DC.jpg" alt="AC" height="25" width="25">
+<label>Dallas Cowboys</label>
+<input type="checkbox" id="DB"/>
+<img src="DB.jpg" alt="AC" height="25" width="25">
+<label>Denver Broncos</label>
+<input type="checkbox" id="DL"/>
+<img src="DL.jpg" alt="AC" height="25" width="25">
+<label>Detroit Lions</label>
+<input type="checkbox" id="GBP"/>
+<img src="GBP.jpg" alt="AC" height="25" width="25">
+<label>Green Bay Packers</label>
+<input type="checkbox" id="HT"/>
+<img src="HT.jpg" alt="AC" height="25" width="25">
+<label>Houston Texans</label>
+<input type="checkbox" id="IC"/>
+<img src="IC.jpg" alt="AC" height="25" width="25">
+<label>Indianapolis Colts</label>
+<input type="checkbox" id="JJ"/>
+<img src="JJ.jpg" alt="AC" height="25" width="25">
+<label>Jacksonville Jaguars</label>
+<input type="checkbox" id="KCC"/>
+<img src="KCC.jpg" alt="AC" height="25" width="25">
+<label>Kansas City Chiefs</label>
+</div>
+<div>
+<input type="checkbox" id="LVR"/>
+<img src="LVR.jpg" alt="AC" height="25" width="25">
+<label>Las Vegas Raiders</label>
+<input type="checkbox" id="LAC"/>
+<img src="LAC.jpg" alt="AC" height="25" width="25">
+<label>Los Angeles Chargers</label>
+<input type="checkbox" id="LAR"/>
+<img src="LAR.jpg" alt="AC" height="25" width="25">
+<label>Los Angeles Rams</label>
+<input type="checkbox" id="MD"/>
+<img src="MD.jpg" alt="AC" height="25" width="25">
+<label>Miami Dolphins</label>
+<input type="checkbox" id="MV"/>
+<img src="MV.jpg" alt="AC" height="25" width="25">
+<label>Minnesota Vikings</label>
+<input type="checkbox" id="NEP"/>
+<img src="NEP.jpg" alt="AC" height="25" width="25">
+<label>New England Patriots</label>
+<input type="checkbox" id="NOS"/>
+<img src="NOS.jpg" alt="AC" height="25" width="25">
+<label>New Orleans Saints</label>
+<input type="checkbox" id="NYG"/>
+<img src="NYG.jpg" alt="AC" height="25" width="25">
+<label>New York Giants</label>
+</div>
+<div>
+<input type="checkbox" id="NYJ"/>
+<img src="NYJ.jpg" alt="AC" height="25" width="25">
+<label>New York Jets</label>
+<input type="checkbox" id="PE"/>
+<img src="PE.jpg" alt="AC" height="25" width="25">
+<label>Philadelphia Eagles</label>
+<input type="checkbox" id="PS"/>
+<img src="PS.jpg" alt="AC" height="25" width="25">
+<label>Pittsburgh Steelers</label>
+<input type="checkbox" id="SF49"/>
+<img src="SF49.jpg" alt="AC" height="25" width="25">
+<label>San Francisco 49ers</label>
+<input type="checkbox" id="SS"/>
+<img src="SS.jpg" alt="AC" height="25" width="25">
+<label>Seattle Seahawks</label>
+<input type="checkbox" id="TBB"/>
+<img src="TBB.jpg" alt="AC" height="25" width="25">
+<label>Tampa Bay Buccaneers</label>
+<input type="checkbox" id="TT"/>
+<img src="TT.jpg" alt="AC" height="25" width="25">
+<label>Tennessee Titans</label>
+<input type="checkbox" id="WC"/>
+<img src="WC.jpg" alt="AC" height="25" width="25">
+<label>Washington Commanders</label>
+</div>
+<button onclick="startDraft()">Start Draft</button>
+        
+<h2>Available Players:</h2>
+    <select id="players" size="25" width="300" multiple>
+        <option value="A|WR">Jermaine Burton A|WR</option>
+        <option value="C|WR">Xavier Weaver C|WR</option>
+        <option value="FS|WR">Johnny Wilson FS|WR</option>
+        <option value="G|WR">Marcus Rosemy-Jacksaint G|WR</option>
+        <option value="L|WR">Jamari Thrash L|WR</option>
+        <option value="LSU|WR">Brian Thomas Jr. LSU|WR</option>
+        <option value="Mm|WR">Tyler Harrell  Mm|WR</option>
+        <option value="Mc|WR">Cornelius Johnson Mc|WR</option>
+        <option value="OS|WR">Marvin Harrison Jr.
+ OS|WR</option>
+        <option value="O|WR">Troy Franklin O|WR</option>
+        <option value="SC|WR">Tahj Washington SC|WR</option>
+        <option value="Tn|WR">Ramel Keyton Tn|WR</option>
+        <option value="Tx|WR">Jordan Whittington Tx|WR</option>
+        <option value="W|WR">Ja'Lynn Polk W|WR</option>
+        <option value="A|IOL">Landon Dickerson A|IOL</option>
+        <option value="G|IOL">Ben Cleveland G|IOL</option>
+        <option value="ND|IOL">Aaron Banks ND|IOL</option>
+        <option value="OS|IOL">Wyatt Davis OS|IOL</option>
+        <option value="O|IOL">Creed Humphrey O|IOL</option>
+        <option value="PS|IOL">Michal Menet PS|IOL</option>
+        <option value="SC|IOL">Alijah Vera-Tucker SC|IOL</option>
+        <option value="Tn|IOL">Trey Smith Tn|IOL</option>
+        <option value="A|LB">Dylan Moses A|LB</option>
+        <option value="G|LB">Monty Rice G|LB</option>
+        <option value="L|LB">Dorian Etheridge L|LB</option>
+        <option value="LSU|LB">Jabril Cox LSU|LB</option>
+        <option value="Mc|LB">Cameron McGrone Mc|LB</option>
+        <option value="ND|LB">Jeremiah Owusu-Koramoah ND|LB</option>
+        <option value="OS|LB">Baron Browning OS|LB</option>
+        <option value="PS|LB">Micah Parsons PS|LB</option>
+        <option value="LSU|P">Zach Von Rosenberg LSU|P</option>
+        <option value="OS|P">Drue Chrisman OS|P</option>    
+        <option value="A|QB">Mac Jones A|QB</option>
+        <option value="G|QB">Jamie Newman G|QB</option>
+        <option value="ND|QB">Ian Book ND|QB</option>
+        <option value="OS|QB">Justin Fields OS|QB</option>
+        <option value="Tx|QB">Sam Ehlinger Tx|QB</option>
+        <option value="W|QB">Kevin Thomson W|QB</option>
+        <option value="A|TE">Miller Forristall A|TE</option>
+        <option value="G|TE">Tre' McKitty G|TE</option>
+        <option value="Mm|TE">Brevin Jordan Mm|TE</option>
+        <option value="Mc|TE">Nick Eubanks Mc|TE</option>
+        <option value="ND|TE">Tommy Tremble ND|TE</option>
+        <option value="OS|TE">Luke Farrell OS|TE</option>
+        <option value="PS|TE">Pat Freiermuth PS|TE</option> 
+        <option value="A|DL">Christian Barmore A|DL</option>
+        <option value="C|DL">Mustafa Johnson C|DL</option>
+        <option value="FS|DL">Marvin Wilson FS|DL</option>
+        <option value="G|DL">Malik Herring G|DL</option>
+        <option value="L|DL">Jared Goldwire L|DL</option>
+        <option value="LSU|DL">Tyler Shelvin LSU|DL</option>
+        <option value="Mc|DL">Carlo Kemp Mc|DL</option>
+        <option value="OS|DL">Tommy Togiai OS|DL</option>
+        <option value="SC|DL">Jay Tufele SC|DL</option>
+        <option value="Tx|DL">Ta'Quon Graham Tx|DL</option>
+        <option value="W|DL">Levi Onwuzurike W|DL</option>
+        <option value="A|CB">Patrick Surtain II A|CB</option>
+        <option value="FS|CB">Asante Samuel Jr. FS|CB</option>
+        <option value="G|CB">Tyson Campbell G|CB</option>
+        <option value="LSU|CB">Kary Vincent Jr. LSU|CB</option>
+        <option value="Mm|CB">Emmanuel Rugamba Mm|CB</option>
+        <option value="Mc|CB">Ambry Thomas Mc|CB</option>
+        <option value="ND|CB">Nick McCloud ND|CB</option>
+        <option value="OS|CB">Shaun Wade OS|CB</option>
+        <option value="O|CB">Tre Brown O|CB</option>
+        <option value="SC|CB">Olaijah Griffin SC|CB</option>
+        <option value="Tn|CB">Bryce Thompson Tn|CB</option>
+        <option value="W|CB">Elijah Molden W|CB</option>            
+        <option value="Mm|K">Jose Borregales Mm|K</option>
+        <option value="OS|K">Blake Haubeil OS|K</option>
+        <option value="A|RB">Najee Harris A|RB</option>
+        <option value="L|RB">Javian Hawkins L|RB</option>
+        <option value="LSU|RB">Tory Carter LSU|RB</option>
+        <option value="Mc|RB">Chris Evans Mc|RB</option>
+        <option value="OS|RB">Trey Sermon OS|RB</option>
+        <option value="O|RB">Rhamondre Stevenson O|RB</option>
+        <option value="SC|RB">Vavae Malepeai SC|RB</option>    
+        <option value="A|OT">Alex Leatherwood A|OT</option>
+        <option value="C|OT">William Sherman C|OT</option>
+        <option value="Mc|OT">Jalen Mayfield Mc|OT</option>
+        <option value="ND|OT">Liam Eichenberg ND|OT</option>
+        <option value="Tx|OT">Samuel Cosmi Tx|OT</option>     
+        <option value="FS|EDGE">Janarius Robinson FS|EDGE</option>
+        <option value="G|EDGE">Azeez Ojulari G|EDGE</option>
+        <option value="L|EDGE">Rodjay Burns L|EDGE</option>
+        <option value="Mm|EDGE">Jaelan Phillips Mm|EDGE</option>
+        <option value="Mc|EDGE">Kwity Paye Mc|EDGE</option>
+        <option value="ND|EDGE">Daelin Hayes ND|EDGE</option>
+        <option value="OS|EDGE">Jonathon Cooper OS|EDGE</option>
+        <option value="O|EDGE">Ronnie Perkins O|EDGE</option>
+        <option value="PS|EDGE">Jayson Oweh PS|EDGE</option>
+        <option value="Tx|EDGE">Joseph Ossai Tx|EDGE</option>
+        <option value="W|EDGE">Joe Tryon W|EDGE</option>
+        <option value="FS|S">Hamsah Nasirildeen FS|S</option>
+        <option value="G|S">Richard LeCounte G|S</option>
+        <option value="LSU|S">JaCoby Stevens LSU|S</option>
+        <option value="ND|S">Shaun Crawford ND|S</option>
+        <option value="PS|S">Lamont Wade PS|S</option>
+        <option value="Tx|S">Caden Sterns Tx|S</option>
+        <option value="A|LS">Thomas Fletcher A|LS</option>
+        <option value="Mc|LS">Camaron Cheeseman Mc|LS</option>
+    </select>
+    <div>
+    <button onclick="draftPlayer()">Draft</button>
+    </div>
+    <div>
+        <h2>
+            Trade Offers
+        </h2>
+    </div>
+    <form method="post" action="Trade.html" >
+    <input type="submit" value="Check?"> 
+    <script>
+        function startDraft() {
+            alert("Draft has started!");
+        }
+        function draftPlayer() {
+            var selectedTeams = [];
+            if (document.getElementById('AC').checked) {
+                selectedTeams.push('Arizona Cardinals');
+            }
+            if (document.getElementById('AF').checked) {
+                selectedTeams.push('Atlanta Falcons');
+            }
+            if (document.getElementById('BR').checked) {
+                selectedTeams.push('Baltmore Ravens');
+            }
+            if (document.getElementById('BB').checked) {
+                selectedTeams.push('Buffalo Bills');
+            }
+            if (document.getElementById('CP').checked) {
+                selectedTeams.push('Carolina Panthers');
+            }
+            if (document.getElementById('ChB').checked) {
+                selectedTeams.push('Chicago Bears');
+            }
+            if (document.getElementById('CiB').checked) {
+                selectedTeams.push('Cincinnati Bengals');
+            }
+            if (document.getElementById('ClB').checked) {
+                selectedTeams.push('Cleveland Browns');
+            }
+            if (document.getElementById('DC').checked) {
+                selectedTeams.push('Dallas Cowboys');
+            }
+            if (document.getElementById('DB').checked) {
+                selectedTeams.push('Denver Broncos');
+            }
+            if (document.getElementById('DL').checked) {
+                selectedTeams.push('Detroit Lions');
+            }
+            if (document.getElementById('GBP').checked) {
+                selectedTeams.push('Green Bay Packers');
+            }
+            if (document.getElementById('HT').checked) {
+                selectedTeams.push('Houston Texans');
+            }
+            if (document.getElementById('IC').checked) {
+                selectedTeams.push('Indianapolis Colts');
+            }
+            if (document.getElementById('JJ').checked) {
+                selectedTeams.push('Jacksonville Jaguars');
+            }
+            if (document.getElementById('KCC').checked) {
+                selectedTeams.push('Kansas City Chiefs');
+            }
+            if (document.getElementById('LVR').checked) {
+                selectedTeams.push('Las Vegas Raiders');
+            }
+            if (document.getElementById('LAC').checked) {
+                selectedTeams.push('Los Angeles Chargers');
+            }
+            if (document.getElementById('LAR').checked) {
+                selectedTeams.push('Los Angeles Rams');
+            }
+            if (document.getElementById('MD').checked) {
+                selectedTeams.push('Miami Dolphins');
+            }
+            if (document.getElementById('MV').checked) {
+                selectedTeams.push('Minnesota Vikings');
+            }
+            if (document.getElementById('NEP').checked) {
+                selectedTeams.push('New England Patriots');
+            }
+            if (document.getElementById('NOS').checked) {
+                selectedTeams.push('New Orleans Saints');
+            }
+            if (document.getElementById('NYG').checked) {
+                selectedTeams.push('New York Giants');
+            }
+            if (document.getElementById('NYJ').checked) {
+                selectedTeams.push('New York Jets');
+            }
+            if (document.getElementById('PE').checked) {
+                selectedTeams.push('Philadelphia Eagles');
+            }
+            if (document.getElementById('PS').checked) {
+                selectedTeams.push('Pittsburgh Steelers');
+            }
+            if (document.getElementById('SF49').checked) {
+                selectedTeams.push('San Francisco 49ers');
+            }
+            if (document.getElementById('SS').checked) {
+                selectedTeams.push('Seattle Seahawks');
+            }
+            if (document.getElementById('TBB').checked) {
+                selectedTeams.push('Tampa Bay Buccaneers');
+            }
+            if (document.getElementById('TT').checked) {
+                selectedTeams.push('Tennessee Titans');
+            }
+            if (document.getElementById('WC').checked) {
+                selectedTeams.push('Washington Commanders');
+            }
+            
+        var selectedPlayers = [];
+            var select = document.getElementById('players');
+            for (var i = 0; i < select.options.length; i++) {
+                if (select.options[i].selected) {
+                    selectedPlayers.push(select.options[i].value);
+                }
+            }
+            alert("Player "+selectedPlayers.join()+" has been selected for "+selectedTeams[Math.floor(Math.random() * selectedTeams.length)])
+        }
+    </script>
+</html>
